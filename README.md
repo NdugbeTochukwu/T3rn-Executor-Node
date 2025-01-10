@@ -48,7 +48,7 @@ cd executor/executor/bin
 # Configuring settings and variables
 To configure the settings, paste the following codes one after the other
 
-Make sure you have eth balances on all the chains about 1-2eth
+Make sure you have eth balances on all the chains about 1-2eth each
 
 ```bash
 export NODE_ENV=testnet
