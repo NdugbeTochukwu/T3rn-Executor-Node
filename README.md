@@ -36,10 +36,10 @@ tmux new -s t3rn
 ## Install T3rn
 ```
 cd $HOME
-wget https://github.com/t3rn/executor-release/releases/download/v0.33.0/executor-linux-v0.33.0.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.36.0/executor-linux-v0.36.0.tar.gz
 ```
 ```
-tar -xvzf executor-linux-v0.33.0.tar.gz
+tar -xvzf executor-linux-v0.36.0.tar.gz
 ```
 ```
 cd executor/executor/bin
