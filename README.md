@@ -38,6 +38,10 @@ tmux new -s t3rn
 cd $HOME
 wget https://github.com/t3rn/executor-release/releases/download/v0.38.0/executor-linux-v0.38.0.tar.gz
 ```
+Verify the SHA256 checksum
+```
+wget https://github.com/t3rn/executor-release/releases/download/v0.36.0/executor-linux-v0.36.0.tar.gz.sha256sum
+```
 ```
 tar -xvzf executor-linux-v0.38.0.tar.gz
 ```
