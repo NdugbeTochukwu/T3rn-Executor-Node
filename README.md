@@ -36,14 +36,14 @@ tmux new -s t3rn
 ## Install T3rn
 ```
 cd $HOME
-wget https://github.com/t3rn/executor-release/releases/download/v0.47.0/executor-linux-v0.47.0.tar.gz
+wget https://github.com/t3rn/executor-release/releases/download/v0.48.0/executor-linux-v0.48.0.tar.gz
 ```
 Verify the SHA256 checksum
 ```
-wget https://github.com/t3rn/executor-release/releases/download/v0.47.0/executor-linux-v0.47.0.tar.gz.sha256sum
+wget https://github.com/t3rn/executor-release/releases/download/v0.48.0/executor-linux-v0.48.0.tar.gz.sha256sum
 ```
 ```
-tar -xvzf executor-linux-v0.47.0.tar.gz
+tar -xvzf executor-linux-v0.48.0.tar.gz
 ```
 ```
 cd executor/executor/bin
@@ -52,7 +52,7 @@ cd executor/executor/bin
 # Configuring settings and variables
 To configure the settings, paste the following codes one after the other
 
-Make sure you have eth balances on all the chains about 1-2eth each
+Make sure you have eth balances on all the chains about 5-10eth each
 
 ```bash
 export NODE_ENV=testnet
