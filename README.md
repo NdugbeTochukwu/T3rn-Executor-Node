@@ -55,7 +55,7 @@ To configure the settings, paste the following codes one after the other
 Make sure you have eth balances on all the chains about 5-10eth each
 
 ```bash
-export NODE_ENV=testnet
+export NODE_ENVIRONMENT=testnet
 export LOG_LEVEL=debug
 export LOG_PRETTY=false
 export EXECUTOR_PROCESS_ORDERS=true
